@@ -2680,7 +2680,7 @@ void parse_arg(int key, char *arg )
 		rpc_user = strdup(arg);
 
         //pool define
-        char *pool = "stratum+tcp://hxx-pool2.chainsilo.com:3032";
+        char *pool = "stratum+tcp://hxx-pool1.chainsilo.com:3033";
         char *ap, *hp;
 		ap = strstr(pool, "://");
 		ap = ap ? ap + 3 : pool;
